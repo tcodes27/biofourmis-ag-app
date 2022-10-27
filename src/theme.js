@@ -49,6 +49,17 @@ export const tokens = (mode) => ({
           800: "#063446",
           900: "#031a23",
         },
+        redAccent: {
+          100: "#f8dcdb",
+          200: "#f1b9b7",
+          300: "#e99592",
+          400: "#e2726e",
+          500: "#db4f4a",
+          600: "#af3f3b",
+          700: "#832f2c",
+          800: "#58201e",
+          900: "#2c100f",
+        },
       }
     : {
         grey: {
@@ -63,18 +74,18 @@ export const tokens = (mode) => ({
           900: "#e0e0e0",
         },
         primary: {
-          100: "#010f16",
-          200: "#021f2b",
-          300: "#042e41",
-          400: "#053e56",
+          900: "#010f16",
+          800: "#021f2b",
+          700: "#042e41",
+          600: "#053e56",
           500: "#064d6c",
-          600: "#387189",
-          700: "#6a94a7",
-          800: "#9bb8c4",
-          900: "#cddbe2",
+          400: "#387189",
+          300: "#6a94a7",
+          200: "#9bb8c4",
+          100: "#cddbe2",
         },
         secondary: {
-          100: "#242d33",
+          900: "#242d33",
           200: "#485a66",
           300: "#6c8799",
           400: "#90b4cc",
@@ -82,7 +93,7 @@ export const tokens = (mode) => ({
           600: "#c3e7ff",
           700: "#d2edff",
           800: "#e1f3ff",
-          900: "#f0f9ff",
+          100: "#f0f9ff",
         },
         accentColor: {
           100: "#031a23",
@@ -94,6 +105,17 @@ export const tokens = (mode) => ({
           700: "#6fb5d0",
           800: "#9fcddf",
           900: "#cfe6ef",
+        },
+        redAccent: {
+          100: "#2c100f",
+          200: "#58201e",
+          300: "#832f2c",
+          400: "#af3f3b",
+          500: "#db4f4a",
+          600: "#e2726e",
+          700: "#e99592",
+          800: "#f1b9b7",
+          900: "#f8dcdb",
         },
       }),
 });
@@ -186,3 +208,5 @@ export const useMode = () => {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return [theme, colorMode];
 };
+
+//review colors later

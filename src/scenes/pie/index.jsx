@@ -5,7 +5,12 @@ import PieChart from "../../components/PieChart";
 const Pie = () => {
   return (
     <Box m="20px">
-      <Header title="Demographic" subtitle="2021- 2022 data statistics" />
+      <Header
+        title="Demographic"
+        subtitle="Providing Digital Therapeutics,
+Digital Biomarkers, and
+Medication Adherence"
+      />
       <Box height="75vh">
         <PieChart />
       </Box>

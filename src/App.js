@@ -12,9 +12,8 @@ import Form from "./scenes/form";
 import Calendar from "./scenes/calendar";
 import Bar from "./components/BarChart";
 import PieChart from "./scenes/pie";
-// import Line from "./scenes/line";
-// import Geography from "./scenes/geography";
-
+import Line from "./scenes/line";
+import Geography from "./scenes/geography";
 import FAQ from "./scenes/faq";
 function App() {
   const [theme, colorMode] = useMode();
@@ -38,10 +37,9 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<PieChart />} />
-              <Route />
-              {/* 
               <Route path="/line" element={<Line />} />
-              <Route path="/geography" element={<Geography />} />  */}
+              <Route path="/geography" element={<Geography />} />
+              <Route />
             </Routes>
           </main>
         </div>

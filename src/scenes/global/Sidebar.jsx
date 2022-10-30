@@ -79,7 +79,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" color={colors.grey[200]}>
+                <Typography variant="h3" color={colors.grey[100]}>
                   biofourmis
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
@@ -96,7 +96,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="120px"
                   height="120px"
-                  src={`../../assets/userprofile.jpg`}
+                  src={`https://pbs.twimg.com/profile_images/767781256109158400/nxElXh98_400x400.jpg`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -109,7 +109,7 @@ const Sidebar = () => {
                 >
                   Ammar Darkazanli
                 </Typography>
-                <Typography variant="h5" color={colors.accentColor[500]}>
+                <Typography variant="h5" color={colors.secondary[400]}>
                   VP of Systems Engineering Admin
                 </Typography>
               </Box>

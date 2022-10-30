@@ -12,71 +12,61 @@ const FAQ = () => {
   const colors = tokens(theme.palette.mode);
   return (
     <Box m="20px">
-      <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
+      <Header
+        title="FAQ"
+        subtitle="Need help? Review our internal resource center"
+      />
 
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.redAccent[500]} variant="h5">
-            An Important Question
+          <Typography color={colors.secondary[200]} variant="h5">
+            Human Resources Department
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>888-645-2444</Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.secondary[200]} variant="h5">
+            Another Department
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>887-655-1000</Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.secondary[200]} variant="h5">
+            Training
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>training.com</Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.secondary[200]} variant="h5">
+            Meetings
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Another Important Question
+          <Typography color={colors.secondary[200]} variant="h5">
+            E-Mail
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Your Favorite Question
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            Some Random Question
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.redAccent[500]} variant="h5">
-            The Final Question
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <Typography>email@email.com</Typography>
         </AccordionDetails>
       </Accordion>
     </Box>

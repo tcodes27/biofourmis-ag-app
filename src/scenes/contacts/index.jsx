@@ -72,7 +72,7 @@ const Contacts = () => {
             color: colors.accentColor[300],
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.secondary[700],
+            backgroundColor: colors.secondary[500],
             borderBottom: "none",
           },
           "& .MuiDataGrid-virtualScroller": {

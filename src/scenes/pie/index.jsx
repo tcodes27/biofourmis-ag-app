@@ -7,9 +7,7 @@ const Pie = () => {
     <Box m="20px">
       <Header
         title="Demographic"
-        subtitle="Providing Digital Therapeutics,
-Digital Biomarkers, and
-Medication Adherence"
+        subtitle="Providing Digital Therapeutics, Digital Biomarkers, and Medication Adherence"
       />
       <Box height="75vh">
         <PieChart />

@@ -1,7 +1,7 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
-import { mockBarData as data } from "../data/data";
+import { mockBarData as data } from "../data/mockData";
 
 const BarChart = ({ isDashboard = false }) => {
   const theme = useTheme();
@@ -51,7 +51,7 @@ const BarChart = ({ isDashboard = false }) => {
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
-      colors={{ scheme: "nivo" }}
+      colors={{ scheme: "paired" }}
       defs={[
         {
           id: "dots",
@@ -82,7 +82,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "country",
+        legend: isDashboard ? undefined : "Country",
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -90,7 +90,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "revenue",
+        legend: isDashboard ? undefined : "Revenue",
         legendPosition: "middle",
         legendOffset: -40,
       }}

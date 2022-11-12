@@ -2,7 +2,7 @@ import { Box, IconButton, Button, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import Header from "../../components/Header";
-import { mockTransactions } from "../../data/data";
+import { mockTransactions } from "../../data/mockData";
 import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";

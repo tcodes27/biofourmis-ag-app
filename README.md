@@ -1,10 +1,11 @@
-# Biofourmis-AG Dashboard Project (In Process)
+# Biofourmis-AG Dashboard Project
 
 <br>
 
 ## Highlights
 
-- details coming soon
+- React Admin Dashboard for a Biofourmis.com - A company who I believe in its mission by Transforming patient health through personalized, predictive care.
+  This Dashbord consist: - Light/Dark Mode - 3 Data Tables Pages - FAQ Page - Form Page - Calendar Integration - 4 Charts Graphs
 
 ### Skills
 
@@ -15,12 +16,12 @@
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-<!-- nivo graph and dark/light mode -->
+![Nivo]
+![Dark/Light]
 
 ###### More information coming soon!
 
 <br>
 
-<!-- add website
-add my author details later -->
+![WEBSITE](https://)
+Author: TierraBCodes

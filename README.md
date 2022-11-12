@@ -1,16 +1,18 @@
 # Biofourmis-AG Dashboard Project
 
+![Dashboard](./public/bioFourmisImage.png)
 <br>
 
 ## Highlights
 
 React Admin Dashboard for a Biofourmis.com - A company who I believe in its mission by Transforming patient health through personalized, predictive care.
-  This Dashbord consist: 
-  - Light/Dark Mode
-  - 3 Data Tables Pages
-  - FAQ Page - Form Page 
-  - Calendar Integration 
-  - 4 Charts Graphs
+This Dashbord consist:
+
+- Light/Dark Mode
+- 3 Data Tables Pages
+- FAQ Page - Form Page
+- Calendar Integration
+- 4 Charts Graphs
 
 ### Skills
 

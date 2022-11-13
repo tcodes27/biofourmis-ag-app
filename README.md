@@ -23,6 +23,7 @@ This Dashbord consist:
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84d85630-f4ec-4e35-92d8-0fab179844c9/deploy-status)](https://app.netlify.com/sites/biofourmis/deploys)
 
 ###### More information coming soon!
 

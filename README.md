@@ -29,5 +29,6 @@ This Dashbord consist:
 
 <br>
 
-![Visit the Website](https://biofourmis.netlify.app/)
+Website: https://biofourmis.netlify.app/
+<br>
 Author: TierraBCodes
